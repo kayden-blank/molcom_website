@@ -1,0 +1,21 @@
+.longInput{
+    width:50vw;
+    height:40px;
+    font-size: 20px;
+    padding: 5px;
+}
+.test{
+    /* text-align: center; */
+    margin-left:25vw;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.label{
+   font-weight: bold;
+
+}
+.textWidth{
+    width:50vw;
+    height:100px;
+    padding: 10px;
+}

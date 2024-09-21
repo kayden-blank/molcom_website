@@ -1,0 +1,19 @@
+.vissionDiv{
+    display: flex;
+    padding :20px;
+    margin-left: 10%;
+}
+#content-images-container{
+    padding-bottom: 500px;
+}
+.vissionDiv:hover{
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    /* Surrounding shadow */
+    transition: box-shadow 0.3s ease;
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+}
+
+.something{
+    transition: transform 0.3s ease;
+}

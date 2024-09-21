@@ -1,0 +1,59 @@
+.carousel-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100px;
+    /* Adjust to your desired image width */
+    height: 100px;
+    /* Adjust to your desired image height */
+    margin-right: 90px;
+    /* Space between images */
+}
+
+.carousel-image img {
+    width: 100px;
+    /* Ensure the image fits within the container */
+    height: 100px;
+    /* Ensure the image fits within the container */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    /* width: 10px; */
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}

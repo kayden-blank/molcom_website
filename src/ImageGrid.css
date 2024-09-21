@@ -1,0 +1,32 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 columns */
+    grid-template-rows: repeat(4, 1fr);
+    /* 4 rows */
+    gap: 20px;
+    /* Space between items */
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Light shadow around the box */
+    border-radius: 10px;
+    /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100px;
+    /* Make sure the image fits within the box */
+   height: 100px;
+    /* Keep the image within the container */
+    border-radius: 10px;
+   
+    /* Ensures image is properly contained */
+}
